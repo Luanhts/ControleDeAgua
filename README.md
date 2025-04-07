@@ -32,4 +32,4 @@ Quando a meta é alcançada, uma notificação aparece e o contador é reiniciad
 ---
 
 ## 🎯 Acesse
-[Controlador de Consumo de Água](https://luanhts.github.io/ControleDeAgua/)
+[Controlador de Consumo de Água](https://Luanhts.github.io/ControleDeAgua/)
