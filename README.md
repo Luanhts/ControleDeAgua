@@ -1,54 +1,35 @@
-# React + TypeScript + Vite
+# 💧 Water Controller – Controle de Consumo de Água
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido com o objetivo de treinar conceitos fundamentais do TailwindCSS e React, como `useState`, `useEffect`, componentização e estilização responsiva.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O **Water Controller** é uma aplicação simples que permite ao usuário controlar quantos copos de água foram bebidos ao longo do dia. A meta é beber 8 copos de água, e conforme os copos são adicionados, uma barra de progresso e uma ilustração de um copo se enchem para indicar visualmente o progresso.
 
-## Expanding the ESLint configuration
+Quando a meta é alcançada, uma notificação aparece e o contador é reiniciado.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tecnologias Utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **React** – Biblioteca JavaScript para construção de interfaces
+- **Tailwind CSS** – Framework utilitário para estilização rápida e moderna
+- **useState** – Hook do React para manipular estado local
+- **useEffect** – Hook do React para lidar com efeitos colaterais
+- **Componentização** – Organização modular e reutilizável de código
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📸 Funcionalidades
+
+- ✅ Adicionar copos de água bebidos
+- ✅ Visualização da quantidade restante e já bebida
+- ✅ Barra de progresso dinâmica
+- ✅ Copo animado que se enche conforme o progresso
+- ✅ Alerta ao atingir a meta diária
+- ✅ Design moderno e responsivo com Tailwind
+
+---
+
+## 🎯 Acesse
+
